@@ -195,6 +195,16 @@ nav {
 	color: #ffffff;
 }
 
+#label {
+	letter-spacing: 0.05em;
+	font-size: 18px;
+}
+
+#nav-image {
+	width: 100px;
+	height: 100px;
+}
+
 /* ===================== ABOUT ME PAGE ===================== */
 h1 {
 	text-align: center;
