@@ -68,6 +68,7 @@ PROFILE IMAGE CODE
 	transform: perspective(1px) translateY(-50%);
 }
 
+#menu-btn,
 #home,
 #circle,
 #briefcase,
@@ -75,6 +76,7 @@ PROFILE IMAGE CODE
 	color: #24292e;
 }
 
+#menu-btn
 #home:hover,
 #circle:hover,
 #briefcase:hover,
