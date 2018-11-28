@@ -191,6 +191,10 @@ nav {
 	background-color: #24292e;
 }
 
+#bars:hover {
+	color: #ffffff;
+}
+
 /* ===================== ABOUT ME PAGE ===================== */
 h1 {
 	text-align: center;
