@@ -17,7 +17,9 @@ body {
 .site {
 	font-family: 'Lato';
 	font-size: 16px;
-	background: #ebebeb;
+	/* background: #ebebeb; */
+	/* background: #ffffff; */
+	background: rgba(0, 0, 0, 0.04);
 	color: #0E1822;
 }
 
