@@ -11,13 +11,6 @@ $(document).ready(function () {
 	$('.fixed-action-btn').floatingActionButton();
 });
 
-// document.addEventListener('DOMContentLoaded', function () {
-// 	var elems = document.querySelectorAll('.fixed-action-btn');
-// 	var instances = M.FloatingActionButton.init(elems, options);
-// });
-
-// var instance = M.FloatingActionButton.getInstance(elem);
-
 document.addEventListener('DOMContentLoaded', function () {
 	var elems = document.querySelectorAll('.fixed-action-btn');
 	var instances = M.FloatingActionButton.init(elems, {
