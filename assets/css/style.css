@@ -47,15 +47,6 @@ body {
 PROFILE IMAGE CODE
 ======================================================================================================== */
 #profile {
-	/* animation-duration: 2s; */
-	/* box-sizing: inherit; */
-	/* transition: all .5s;
-    transition-property: all;
-    transition-duration: 0.5s;
-    transition-timing-function: ease;
-    transition-delay: 0s; */
-	/* margin-bottom: 300px; */
-	/* text-align: center; */
     border: 4px solid #A9A9A9;
     border-radius: 100%;
     /* box-shadow: 0 0 1px 11px rgba(210, 0, 104, 0.15), 0 0 1px 22px rgba(210, 0, 104, 0.1); */
@@ -70,16 +61,11 @@ PROFILE IMAGE CODE
 	transform: translate(-50%, -165%);
 }
 
-
-
 /* ===================================================================================================== */
 .main-div {
 	position: relative;
 	top: 25%;
 	transform: perspective(1px) translateY(-50%);
-	/* display: block;
-    margin-top: auto;
-    margin-bottom: auto; */
 }
 
 #menu-btn,
@@ -96,13 +82,7 @@ PROFILE IMAGE CODE
 #briefcase:hover,
 #envelope:hover {
 	background: linear-gradient(rgba(0,0,0,0.40) 100%, transparent);
-	/* -webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter: drop-shadow(5px 5px 5px #222); */
 }
-
-/* .btn-floating:hover {
-	border: 4px solid #b8b8b8;
-} */
 
 .fixed-action-btn {
 	animation-duration: 2s;
@@ -161,50 +141,6 @@ h5 {
 	width: 0;
 }
 
-/* .navbar {
-    background-color: #24292e!important;
-}
-
-#logo {
-    font-family: 'Lustria', serif;
-    font-size: 30px;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    margin-bottom: 8px;
-    margin-left: 16px;
-}
-
-#logo a {
-    color: #ffffff;
-}
-
-a:hover {
-    color: #ffffff!important;
-    text-decoration: none;
-}
-
-.navbar {
-    padding: 0;
-}
-
-.navbar-brand {
-    margin-top: 12px;
-    margin-left: 55px;
-    letter-spacing: 1.5px;
-}
-
-ul {
-    font-family: 'Lustria', serif;
-    margin-right: 45px;
-    font-size: 18px;
-    letter-spacing: 1.0px;
-}
-
-.main-container {
-    padding: 30px;
-    margin: 0 40px 40px 40px;
-} */
-
 nav {
 	background-color: #24292e;
 }
@@ -234,10 +170,6 @@ nav {
 	width: 100%;
 	height: 100%;
 }
-
-/* .user-view {
-	text-align: center;
-} */
 
 .page-footer {
     padding-top: 0;
@@ -272,10 +204,6 @@ h1 {
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    /* width: 50%; */
-	/* vertical-align: middle;
-	display: inline-block;
-    max-width: 100%; */
 }
 
 #fullstack-icon {
