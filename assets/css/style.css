@@ -15,6 +15,11 @@ body {
 }
 
 .site {
+	width: 100%;
+    height: 100%;
+    position: relative;
+	/* padding: 2em; */
+	
 	font-family: 'Lato';
 	font-size: 18px;
 	/* background: #ebebeb; */
@@ -211,4 +216,34 @@ h1 {
 
 #fullstack-icon {
 	border-radius: 100%;
+}
+
+/* ===================== PORTFOLIO PAGE ===================== */
+
+.portfolio-div {
+	padding: 5em;
+}
+
+.card:hover {
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+}
+
+.card-title {
+	font-size: 20px!important;
+	font-weight: 700!important;
+}
+
+.app-text {
+	font-size: 16px;
+}
+
+#deployed-btn,
+#github-btn {
+	display: inline;
+	background-color: #24292e;
+	text-transform: none;
+	padding: .5rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+    border-radius: .25rem;
 }

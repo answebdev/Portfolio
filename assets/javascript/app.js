@@ -74,3 +74,9 @@ $(document).ready(function () {
 // 		transition: function (url) { window.location.href = url; }
 // 	});
 // });
+
+
+
+$(document).ready(function(){
+    $('.parallax').parallax();
+  });
