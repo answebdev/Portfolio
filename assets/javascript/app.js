@@ -76,7 +76,7 @@ $(document).ready(function () {
 // });
 
 
-
-$(document).ready(function(){
-    $('.parallax').parallax();
-  });
+// Materialize Parallax
+$(document).ready(function () {
+	$('.parallax').parallax();
+});
