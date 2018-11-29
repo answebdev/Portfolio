@@ -21,6 +21,15 @@ body {
 	/* background: #ffffff; */
 	background: rgba(0, 0, 0, 0.04);
 	color: #0E1822;
+	/* Sticky footer styles: */
+	display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* Sticky footer styles */
+.animsition {
+	flex: 1 0 auto;
 }
 
 #main {
@@ -221,6 +230,15 @@ nav {
 /* .user-view {
 	text-align: center;
 } */
+
+.page-footer {
+    padding-top: 0;
+	background-color: #24292e;
+	font-size: 14px;
+	color: #ffffff;
+	letter-spacing: 0.1em;
+	text-align: center;
+}
 
 /* ===================== ABOUT ME PAGE ===================== */
 h1 {
