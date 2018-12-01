@@ -23,8 +23,8 @@ body {
 	font-family: 'Lato';
 	font-size: 18px;
 	/* background: #ebebeb; */
-	/* background: #ffffff; */
-	background: rgba(0, 0, 0, 0.04);
+	background: #ffffff;
+	/* background: rgba(0, 0, 0, 0.04); */
 	color: #0E1822;
 	/* Sticky footer styles: */
 	display: flex;
@@ -108,7 +108,7 @@ PROFILE IMAGE CODE
 	transition: transform 0.5s ease, opacity 1s ease;
 }
 
-h5 {
+h5, h4 {
 	font-family: 'Lato';
 	text-align: center;
 	letter-spacing: 0.1em;
@@ -203,6 +203,7 @@ h1 {
 
 .tech-header {
 	text-align: center;
+	font-weight: 700;
 }
 
 .tech {
@@ -226,21 +227,20 @@ h1 {
 }
 
 /* ===================== PORTFOLIO PAGE ===================== */
-body .backend {
+/* body .backend {
 	background-color: #2196F3;
-	/* background-color: #A9A9A9; */
-	/* background-color: steelblue; */
-}
+} */
 
-#backend-header {
+/* #backend-header {
 	text-align: center;
 	color: #ffffff;
-}
+} */
 
 .header {
-	/* text-transform: uppercase; */
-	/* text-align: center; */
+	text-transform: uppercase;
+	text-align: center;
 	font-weight: 700;
+	margin-bottom: -10px;
 }
 
 .portfolio-div {
@@ -251,12 +251,12 @@ body .backend {
 	width: 90%;
 }
 
-/* .parallax-container {
-    min-height: 200px;
+.parallax-container {
+    min-height: 300px;
     line-height: 0;
     height: auto;
     color: rgba(255,255,255,.9);
-} */
+}
 
 .card:hover {
     box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
