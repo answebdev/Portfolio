@@ -33,7 +33,11 @@ body {
 }
 
 /* Sticky footer styles */
-.animsition {
+/* .animsition {
+	flex: 1 0 auto;
+} */
+
+.container {
 	flex: 1 0 auto;
 }
 
@@ -63,7 +67,7 @@ PROFILE IMAGE CODE
 	position: fixed;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -165%);
+	transform: translate(-50%, -170%);
 }
 
 /* ===================================================================================================== */
