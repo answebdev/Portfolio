@@ -330,6 +330,11 @@ h1 {
   }
 
 /* ===================== CONTACT PAGE ===================== */
+#contact-header {
+	text-align: left;
+	margin-left: -10px;
+}
+
 #contact-container {
     background: url("https://images.pexels.com/photos/374016/pexels-photo-374016.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat;
     /* background-image: url("../images/laptop.jpeg"); */
@@ -356,11 +361,10 @@ h1 {
 	height: auto;
 	/* height: initial; */
 	opacity: .8;
-
 	text-align: center;
     background-color: #ffffff;
     opacity: 0.95;
-	margin-top: 75px;
+	/* margin-top: 75px; */
     margin-left: 0;
     margin-right: 0;
 	border-radius: 5px;
@@ -375,7 +379,9 @@ h1 {
     width: 50%;
 	height: auto;
     margin: 20px;
-    margin-left: 60px;
+	margin-left: 60px;
+	
+	padding-bottom: 40px;
 }
 
 #github-icon:hover,
