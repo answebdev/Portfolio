@@ -408,9 +408,9 @@ h1 {
 /* ===== MEDIA QUERIES ===== */
 
 @media screen and (min-width: 981px) and (max-width: 1200px) {
-	.site, #logo-section {
+	/* .site, #logo-section {
 		background-color: purple;
-	}
+	} */
 
     .card {
 		width: 100%;
@@ -446,9 +446,9 @@ h1 {
 }
 
 @media screen and (min-width: 769px) and (max-width: 980px) {
-	.site, #logo-section {
+	/* .site, #logo-section {
 		background-color: green;
-	}
+	} */
 
     .card {
 		width: 100%;
@@ -485,9 +485,9 @@ h1 {
 }
   
 @media screen and (min-width: 641px) and (max-width: 768px) {
-	.site, #logo-section {
+	/* .site, #logo-section {
 		background-color: red;
-	}
+	} */
     .card {
 		width: 100%;
 		margin-left: 40px;
@@ -523,9 +523,9 @@ h1 {
 }
 
 @media screen and (min-width: 481px) and (max-width: 640px) {
-	.site, #logo-section {
+	/* .site, #logo-section {
 		background-color: yellow;
-	}
+	} */
     .card {
 		width: 100%;
 		margin-left: 15px;
@@ -561,9 +561,9 @@ h1 {
 }
 
 @media screen and (min-width: 321px) and (max-width: 480px) {
-	.site, #logo-section {
+	/* .site, #logo-section {
 		background-color: steelblue;
-	}
+	} */
     .card {
 		width: 100%;
 		margin-left: 15px;
