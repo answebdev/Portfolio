@@ -18,6 +18,19 @@ document.addEventListener('DOMContentLoaded', function () {
 	});
 });
 
+// About Me Typewriter Effect
+var i = 0;
+var txt = 'WELCOME TO MY WEBSITE';
+var speed = 50;
+
+function typeWriter() {
+	if (i < txt.length) {
+		document.getElementById("about-me").innerHTML += txt.charAt(i);
+		i++;
+		setTimeout(typeWriter, speed);
+	}
+}
+
 // Materialize Sidenav
 $(document).ready(function () {
 	$('.sidenav').sidenav();
@@ -97,4 +110,3 @@ btn.on('click', function (e) {
 	e.preventDefault();
 	$('html, body').animate({ scrollTop: 0 }, '300');
 });
-

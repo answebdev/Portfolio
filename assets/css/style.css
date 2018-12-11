@@ -112,7 +112,7 @@ PROFILE IMAGE CODE
 	transition: transform 0.5s ease, opacity 1s ease;
 }
 
-h5, h4 {
+h5, h4, #connect-message {
 	font-family: 'Lato';
 	text-align: center;
 	letter-spacing: 0.1em;
@@ -239,6 +239,12 @@ h1 {
 	text-align: center;
 	color: #ffffff;
 } */
+.card {
+	width: 100%;
+	margin-left: 12px;
+	margin-bottom: 15px;
+    margin-top: 15px;
+}
 
 .header {
 	text-transform: uppercase;
@@ -302,8 +308,8 @@ h1 {
 	text-align: center;
 	border-radius: 100%;
 	position: fixed;
-	bottom: 40px;
-	right: -5px;
+	bottom: 60px;
+	right: 15px;
 	transition: background-color .3s, 
 	  opacity .5s, visibility .5s;
 	opacity: 0;
@@ -380,8 +386,8 @@ h1 {
 	height: auto;
     margin: 20px;
 	margin-left: 60px;
-	
-	padding-bottom: 40px;
+
+	padding-bottom: 30px;
 }
 
 #github-icon:hover,
@@ -393,8 +399,201 @@ h1 {
 }
 
 
-  @media (min-width: 500px) {
+  /* @media (min-width: 500px) {
 	#button {
 	  margin: 30px;
 	}
-  }
+  } */
+
+/* ===== MEDIA QUERIES ===== */
+
+@media screen and (min-width: 981px) and (max-width: 1200px) {
+	.site, #logo-section {
+		background-color: purple;
+	}
+
+    .card {
+		width: 100%;
+		margin-left: 15px;
+	}
+
+	#github-btn {
+		padding-top: .2rem;
+	}
+	
+	#button {
+		margin: -5px;
+	}
+
+    #deployed-btn,
+    #github-btn {
+        display: block;
+    }
+
+    #logo-section {
+        text-align: center;
+    }
+
+    #github-icon,
+    #linkedin-icon,
+    #email-icon,
+    #pdf-icon {
+        float: left;
+        width: 75%;
+        height: auto;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 980px) {
+	.site, #logo-section {
+		background-color: green;
+	}
+
+    .card {
+		width: 100%;
+		margin-left: 43px;
+	}
+
+	#github-btn {
+		padding-top: .2rem;
+	}
+	
+	#button {
+		margin-right: -5px;
+		margin-bottom: 0;
+	}
+
+    #deployed-btn,
+    #github-btn {
+        display: block;
+    }
+
+    #logo-section {
+        text-align: center;
+    }
+
+    #github-icon,
+    #linkedin-icon,
+    #email-icon,
+    #pdf-icon {
+        float: left;
+        width: 75%;
+        height: auto;
+        margin-left: 20px;
+    }
+}
+  
+@media screen and (min-width: 641px) and (max-width: 768px) {
+	.site, #logo-section {
+		background-color: red;
+	}
+    .card {
+		width: 100%;
+		margin-left: 40px;
+	}
+
+	#github-btn {
+		padding-top: .2rem;
+	}
+	
+	#button {
+		margin-right: -5px;
+		margin-bottom: 10px;
+	}
+
+    #deployed-btn,
+    #github-btn {
+        display: block;
+    }
+
+    #logo-section {
+        text-align: center;
+    }
+
+    #github-icon,
+    #linkedin-icon,
+    #email-icon,
+    #pdf-icon {
+        float: left;
+        width: 75%;
+        height: auto;
+        margin-left: 65px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 640px) {
+	.site, #logo-section {
+		background-color: yellow;
+	}
+    .card {
+		width: 100%;
+		margin-left: 15px;
+	}
+
+	#github-btn {
+		padding-top: .2rem;
+	}
+	
+	#button {
+		margin-right: -5px;
+		margin-bottom: 10px;
+	}
+
+    #deployed-btn,
+    #github-btn {
+        display: block;
+    }
+
+    #logo-section {
+        text-align: center;
+    }
+
+    #github-icon,
+    #linkedin-icon,
+    #email-icon,
+    #pdf-icon {
+        float: left;
+        width: 75%;
+        height: auto;
+        margin-left: 63px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+	.site, #logo-section {
+		background-color: steelblue;
+	}
+    .card {
+		width: 100%;
+		margin-left: 15px;
+	}
+
+	#github-btn {
+	padding-top: .2rem;
+	}
+	
+	#button {
+		margin-right: -5px;
+		margin-bottom: 30px;
+	}
+
+    #deployed-btn,
+    #github-btn {
+        display: block;
+    }
+
+    #logo-section {
+        text-align: center;
+    }
+
+    #github-icon,
+    #linkedin-icon,
+    #email-icon,
+    #pdf-icon {
+        float: left;
+        width: 75%;
+        height: auto;
+        margin-left: 40px;
+    }
+}
