@@ -196,6 +196,17 @@ nav {
 	color: #ffffff;
 }
 /* ===================== ABOUT ME PAGE ===================== */
+/* Moving Letters Effect styles: */
+/* .ml2 {
+	font-weight: 900;
+	font-size: 3.5em;
+} */
+
+.ml2 .letter {
+	display: inline-block;
+	/* line-height: 1em; */
+}
+
 h1 {
 	text-align: center;
 }

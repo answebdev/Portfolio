@@ -23,104 +23,114 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <!-- Added link to the jQuery Library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Added link to Anime.js for Moving Letters Effect -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <link href="assets/css/style.css" type="text/css" rel="stylesheet" />
 </head>
 
-<body class="site" onload="typeWriter()">
+<!-- <body class="site" onload="typeWriter()"> -->
+
+<body class="site">
     <!-- <div class="animsition"> -->
 
-        <!-- Start Navbar -->
+    <!-- Start Navbar -->
 
-        <nav>
-            <a href="#" data-target="slide-out" class="sidenav-trigger button-collapse show-on-large" id="bars"><i
-                    class="fas fa-bars"></i></a><strong id="label">Adolf Schmuck</strong>
-        </nav>
+    <nav>
+        <a href="#" data-target="slide-out" class="sidenav-trigger button-collapse show-on-large" id="bars"><i class="fas fa-bars"></i></a><strong
+            id="label">Adolf Schmuck</strong>
+    </nav>
 
-        <ul id="slide-out" class="sidenav sidenav-close">
-            <li>
-                <div class="user-view">
-                    <div class="background">
-                        <img id="nav-background" src="assets/images/laptop_edit.jpg">
-                    </div>
-                    <img class="circle" id="nav-image" src="assets/images/profile-alt.jpg">
-                    <span class="white-text name">Adolf Schmuck</span>
-                    <span class="white-text email">San Diego, CA</span>
+    <ul id="slide-out" class="sidenav sidenav-close">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img id="nav-background" src="assets/images/laptop_edit.jpg">
                 </div>
-            </li>
-            <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
-            <li><a href="about.html"><i class="fas fa-book"></i>About</a></li>
-            <li><a href="portfolio.html"><i class="fas fa-briefcase"></i>Portfolio</a></li>
-            <li><a href="contact.html"><i class="fas fa-envelope-square"></i>Contact</a></li>
-            <li>
-                <div class="divider"></div>
-            </li>
-        </ul>
-        <!-- End Navbar -->
+                <img class="circle" id="nav-image" src="assets/images/profile-alt.jpg">
+                <span class="white-text name">Adolf Schmuck</span>
+                <span class="white-text email">San Diego, CA</span>
+            </div>
+        </li>
+        <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+        <li><a href="about.html"><i class="fas fa-book"></i>About</a></li>
+        <li><a href="portfolio.html"><i class="fas fa-briefcase"></i>Portfolio</a></li>
+        <li><a href="contact.html"><i class="fas fa-envelope-square"></i>Contact</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+    </ul>
+    <!-- End Navbar -->
 
-        <div class="container">
-            <br>
-            <!-- <h1>About Me</h1> -->
-            <h4><strong>About Me</strong></h4>
-            <h5 id="about-me"></h5>
-            <!-- <br> -->
-            <p id="about">I am a web developer based in San Diego, California. I am passionate about creating clean
-                and dynamic web applications. As a full-stack developer, I am interested in using my diverse set of
-                skills to create projects involving both front-end and back-end technologies. As a user-focused
-                developer, I stand for quality and focus on details in order to produce and develop great web apps and
-                user-friendly experiences. I have a passion for the design end of applications as well as working with
-                the back end. Feel free to explore my website and connect with me!</p>
-            <br>
-            <hr>
-            <br>
-            <!-- </div> -->
+    <div class="container">
+        <br>
+        <!-- <h1>About Me</h1> -->
+        <h4><strong>About Me</strong></h4>
 
-            <div class="row">
+        <!-- Typewriter Effect: -->
+        <!-- <h5 id="about-me"></h5> -->
 
-                <div class="col-md-4">
-                    <div>
-                        <img id="frontend-icon" src="assets/images/webdev2.jpg" alt="Profile picture" class="animated fadeIn">
-                    </div>
-                    <h5 class="tech-header">Front-end</h5>
-                    <p class="tech">
-                        Do you need any front-end work done? My front-end skills include HTML, CSS, JavaScript and
-                        jQuery. In addition, I am able to use other technologies like Bootstrap, Materialize, and
-                        Semantic UI to create responsive sites. Some of the front-end applications that I've developed
-                        are Crystal Collector, GifTastic, Train Scheduler, and Bar Finder, a collaborative
-                        effort created in a group of four. Check out the portfolio section for more information on
-                        these apps.
-                    </p>
-                    <br>
+        <!-- Moving Letters Effect: -->
+        <h5 class="ml2">Welcome to my website</h5>
+
+        <!-- <br> -->
+        <p id="about">I am a web developer based in San Diego, California. I enjoy creating clean
+            and dynamic web applications. As a full-stack developer, I am interested in using my diverse set of
+            skills to create projects involving both front-end and back-end technologies. As a user-focused
+            developer, I stand for quality and focus on details in order to produce and develop great web apps and
+            user-friendly experiences. I have a passion for the design end of applications as well as working with
+            the back end. Feel free to explore my website and connect with me!</p>
+        <br>
+        <hr>
+        <br>
+        <!-- </div> -->
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <div>
+                    <img id="frontend-icon" src="assets/images/webdev2.jpg" alt="Profile picture" class="animated fadeIn">
                 </div>
+                <h5 class="tech-header">Front-end</h5>
+                <p class="tech">
+                    Do you need any front-end work done? My front-end skills include HTML, CSS, JavaScript and
+                    jQuery. In addition, I am able to use other technologies like Bootstrap, Materialize, and
+                    Semantic UI to create responsive sites. Some of the front-end applications that I've developed
+                    are Crystal Collector, GifTastic, Train Scheduler, and Bar Finder, a collaborative
+                    effort created in a group of four. Check out the portfolio section for more information on
+                    these apps.
+                </p>
+                <br>
+            </div>
 
-                <div class="col-md-4">
-                    <div>
-                        <img id="backend-icon" src="assets/images/database.png" alt="Profile picture" class="animated fadeIn">
-                    </div>
-                    <h5 class="tech-header">Back-end</h5>
-                    <p class="tech">
-                        If there is a website in need of a back-end, no problem! The languages and technical skills in
-                        my back-end toolbelt include Node.js, Express.js, NPM, Handlebars, REST, as well as MongoDB and
-                        MySQL databases. Applications highlighting these skills are LIRI Bot and Bamazon, which can be
-                        found in the portfolio section. Head on over and take a look at the demo videos I created for
-                        these applications.
-                    </p>
-                    <br>
+            <div class="col-md-4">
+                <div>
+                    <img id="backend-icon" src="assets/images/database.png" alt="Profile picture" class="animated fadeIn">
                 </div>
+                <h5 class="tech-header">Back-end</h5>
+                <p class="tech">
+                    If there is a website in need of a back-end, no problem! The languages and technical skills in
+                    my back-end toolbelt include Node.js, Express.js, NPM, Handlebars, REST, as well as MongoDB and
+                    MySQL databases. Applications highlighting these skills are LIRI Bot and Bamazon, which can be
+                    found in the portfolio section. Head on over and take a look at the demo videos I created for
+                    these applications.
+                </p>
+                <br>
+            </div>
 
-                <div class="col-md-4">
-                    <div>
-                        <img id="fullstack-icon" src="assets/images/link.png" alt="Profile picture" class="animated fadeIn">
-                    </div>
-                    <h5 class="tech-header">Full-stack</h5>
-                    <p class="tech">Developing full-stack applications means I can create and develop a fully
-                        operational website, server and all, from scratch. I am highly adept with the MERN stack and
-                        RESTful routes, and can work on projects using the MVC design pattern. Full-stack applications
-                        that I've developed include Friend Finder and Eat-Da-Burger, both found in the portfolio
-                        section. Stop on by and have yourself a burger!
-                    </p>
+            <div class="col-md-4">
+                <div>
+                    <img id="fullstack-icon" src="assets/images/link.png" alt="Profile picture" class="animated fadeIn">
                 </div>
+                <h5 class="tech-header">Full-stack</h5>
+                <p class="tech">Developing full-stack applications means I can create and develop a fully
+                    operational website, server and all, from scratch. I am highly adept with the MERN stack and
+                    RESTful routes, and can work on projects using the MVC design pattern. Full-stack applications
+                    that I've developed include Friend Finder and Eat-Da-Burger, both found in the portfolio
+                    section. Stop on by and have yourself a burger!
+                </p>
             </div>
         </div>
+    </div>
 
     <!-- </div> -->
 
