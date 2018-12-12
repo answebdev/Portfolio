@@ -250,9 +250,14 @@ h1 {
 	text-align: center;
 	color: #ffffff;
 } */
+.section {
+	display: flex;
+	justify-content: center;
+}
+
 .card {
 	width: 100%;
-	margin-left: 12px;
+	/* margin-left: 12px; */
 	margin-bottom: 15px;
     margin-top: 15px;
 }
@@ -422,6 +427,10 @@ h1 {
 	/* .site, #logo-section {
 		background-color: purple;
 	} */
+	#card-box {
+		display: flex;
+		justify-content: center;
+	}
 
     .card {
 		width: 100%;
@@ -460,6 +469,10 @@ h1 {
 	/* .site, #logo-section {
 		background-color: green;
 	} */
+	#card-box {
+		display: flex;
+		justify-content: center;
+	}
 
     .card {
 		width: 100%;
@@ -499,6 +512,11 @@ h1 {
 	/* .site, #logo-section {
 		background-color: red;
 	} */
+	#card-box {
+		display: flex;
+		justify-content: center;
+	}
+
     .card {
 		width: 100%;
 		margin-left: 40px;
@@ -537,6 +555,11 @@ h1 {
 	/* .site, #logo-section {
 		background-color: yellow;
 	} */
+	#card-box {
+		display: flex;
+		justify-content: center;
+	}
+
     .card {
 		width: 100%;
 		margin-left: 15px;
@@ -575,6 +598,11 @@ h1 {
 	/* .site, #logo-section {
 		background-color: steelblue;
 	} */
+	#card-box {
+		display: flex;
+		justify-content: center;
+	}
+	
     .card {
 		width: 100%;
 		margin-left: 15px;
