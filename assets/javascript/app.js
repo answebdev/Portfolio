@@ -6,7 +6,6 @@ $(document).ready(function () {
 });
 
 // Materialize CSS Code for Floating Links on Landing Page
-
 $(document).ready(function () {
 	$('.fixed-action-btn').floatingActionButton();
 });
@@ -55,9 +54,6 @@ anime.timeline({ loop: false })
 		easing: "easeOutExpo",
 		delay: 1000
 	});
-//    SourceTHURSDAY
-//    SourceSunny mornings
-
 
 // Materialize Sidenav
 $(document).ready(function () {
@@ -138,4 +134,3 @@ btn.on('click', function (e) {
 	e.preventDefault();
 	$('html, body').animate({ scrollTop: 0 }, '300');
 });
-
