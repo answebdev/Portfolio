@@ -166,6 +166,16 @@ nav {
 	font-size: 20px;
 }
 
+#social-icon-links {
+	margin-right: 20px;
+	margin-top: 3px;
+}
+
+.fab:hover,
+.fas:hover {
+	color: #A9A9A9;
+}
+
 .user-view {
 	text-align: center;
 }
