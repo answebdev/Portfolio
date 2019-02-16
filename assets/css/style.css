@@ -73,8 +73,14 @@ PROFILE IMAGE CODE
 /* ===================================================================================================== */
 .main-div {
 	position: relative;
-	top: 25%;
+	top: 35%;
 	transform: perspective(1px) translateY(-50%);
+}
+
+#landing-btns {
+	display: flex;
+	justify-content: center;
+	text-align: center;
 }
 
 #menu-btn,
@@ -100,6 +106,8 @@ PROFILE IMAGE CODE
 }
 
 #name {
+	margin-top: 3em;
+	
 	font-family: 'Lato';
 	font-size: 2rem;
 	letter-spacing: 0.1em;
@@ -608,6 +616,7 @@ h1 {
 	/* .site, #logo-section {
 		background-color: steelblue;
 	} */
+
 	.section {
 		display: flex;
 		justify-content: center;
