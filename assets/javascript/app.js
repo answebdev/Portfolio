@@ -5,18 +5,6 @@ $(document).ready(function () {
 	}, 1200)
 });
 
-// Materialize CSS Code for Floating Links on Landing Page
-$(document).ready(function () {
-	$('.fixed-action-btn').floatingActionButton();
-});
-
-document.addEventListener('DOMContentLoaded', function () {
-	var elems = document.querySelectorAll('.fixed-action-btn');
-	var instances = M.FloatingActionButton.init(elems, {
-		direction: 'left'
-	});
-});
-
 // About Me Moving Letters Effect - Adapted from: http://tobiasahlin.com/moving-letters/
 // Wrap every letter in a span
 $('.ml2').each(function () {
