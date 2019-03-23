@@ -77,7 +77,8 @@ h5, h4, #connect-message {
 	margin-bottom: 40px;
 	border: 4px solid #A9A9A9;
 	border-radius: 100%;
-	/* margin-bottom: 5rem; */
+    /* margin-bottom: 5rem; */
+    /* animation-duration: 1.5s; */
 }
 
 header {
@@ -95,7 +96,8 @@ header {
   
 header:before {
 	animation: fade-slide-down 2s .5s cubic-bezier(0, 0.5, 0, 1) forwards;
-	background: linear-gradient(to bottom, rgba(0,0,0,0.66) 100%, transparent), url("../images/laptop.jpg");
+    background: linear-gradient(to bottom, rgba(0,0,0,0.66) 100%, transparent), url("https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    /* background: linear-gradient(to bottom, rgba(0,0,0,0.66) 100%, transparent), url("../images/laptop.jpg"); */
 	background-size: cover, cover;
 	background-position: center, center;
 	content: "";
