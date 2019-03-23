@@ -244,7 +244,7 @@ a.btn-links ,
     text-align: center;
     text-decoration: none;
     transition: background-color .3s;
-    /* webkit-transition: background-color .3s; */
+    webkit-transition: background-color .3s;
 }
 
 a.btn-links:hover,
@@ -272,13 +272,13 @@ a.btn-links:hover,
 .btn-links  .fa,.btn-links  i
 {
     backface-visibility: hidden;
-    /* moz-backface-visibility: hidden; */
-    /* ms-transform: scale(1); */
-    /* o-transform: scale(1); */
+    moz-backface-visibility: hidden;
+    ms-transform: scale(1);
+    o-transform: scale(1);
     transform: scale(1);
     transition: all .25s;
-    /* webkit-backface-visibility: hidden;
+    webkit-backface-visibility: hidden;
     webkit-transform: scale(1);
-    webkit-transition: all .25s; */
+    webkit-transition: all .25s;
 }
 
