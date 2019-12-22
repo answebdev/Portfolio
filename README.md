@@ -2,7 +2,7 @@
 
 # Project Description
 
-This is my official portfolio website. The website includes a Landing page, an About page, which includes a short embedded YouTube video I made to introduce myself and my website; a Portfolio page with front-end, back-end, and full-stack projects; a Freelance page with current live websites I've created and developed, and a Contact page.
+This is my official web developer portfolio website. The website includes a Landing page, an About page, which includes a short embedded YouTube video I made to introduce myself and my website; a Portfolio page with front-end, back-end, and full-stack projects; a Freelance page with current live websites I've created and developed, and a Contact page.
 
 This responsive front-end website was created using JavaScript, Materialize, CSS, and HTML. The Landing page and Contact page images come from Pexels The font used ('Lato') comes from Google Fonts. The icons used come from Font Awesome. The animated effects come from Animate.css. The video used on the About page is an embedded YouTube video, and is responsive as well. It was created using InVideo.
 
