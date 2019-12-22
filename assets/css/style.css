@@ -1,490 +1,516 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 body {
-	font-family: 'Lato';
-	background: #24292e;
-	color: #ffffff;
+  font-family: 'Lato';
+  background: #24292e;
+  color: #ffffff;
 }
 
 .site {
-	width: 100%;
-    height: 100%;
-    position: relative;
-	font-family: 'Lato';
-	font-size: 18px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-family: 'Lato';
+  font-size: 18px;
 
-	background: #ffffff;
-	/* background: rgba(0, 0, 0, 0.04); */
-	color: #0E1822;
-	/* Sticky footer styles: */
-	display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+  /* background-color: #ffffff; */
+  background-color: #f3f3f3;
+  /* background: rgba(0, 0, 0, 0.04); */
+
+  color: #0e1822;
+  /* Sticky footer styles: */
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 .container {
-	flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 
-h5, h4, #connect-message {
-	font-family: 'Lato';
-	text-align: center;
-	letter-spacing: 0.1em;
-	padding: 1rem;
-	text-transform: uppercase;
+h5,
+h4,
+#connect-message {
+  font-family: 'Lato';
+  text-align: center;
+  letter-spacing: 0.1em;
+  padding: 1rem;
+  text-transform: uppercase;
 }
 
 nav {
-	background-color: #24292e;
+  background-color: #24292e;
 }
 
 #bars:hover {
-	color: #ffffff;
+  color: #ffffff;
 }
 
 #label {
-	/* font-family: 'Lustria', serif; */
-	letter-spacing: 0.1em;
-	font-size: 20px;
+  /* font-family: 'Lustria', serif; */
+  letter-spacing: 0.1em;
+  font-size: 20px;
 }
 
 #social-icon-links {
-	margin-right: 20px;
-	margin-top: 3px;
+  margin-right: 20px;
+  margin-top: 3px;
 }
 
-.fab:hover,
-.fas:hover {
-	color: #A9A9A9;
+.sil:hover {
+  color: #a9a9a9;
 }
+
+/* .fab:hover,
+.fas:hover {
+  color: #a9a9a9;
+} */
 
 .user-view {
-	text-align: center;
+  text-align: center;
 }
 
 #nav-image {
-	width: 100px;
-	height: 100px;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #nav-background {
-	width: 100%;
-	height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .page-footer {
-    padding-top: 0;
-	background-color: #24292e;
-	font-size: 14px;
-	color: #ffffff;
-	letter-spacing: 0.1em;
-	text-align: center;
+  padding-top: 0;
+  background-color: #24292e;
+  font-size: 14px;
+  color: #ffffff;
+  letter-spacing: 0.1em;
+  text-align: center;
 }
 
 #footer-container {
-	color: #ffffff;
+  color: #ffffff;
 }
 
 .ml2 .letter {
-	display: inline-block;
+  display: inline-block;
 }
 
 h1 {
-	text-align: center;
+  text-align: center;
 }
 
 #about {
-	font-size: 16px;
-	text-align: center;
+  font-size: 16px;
+  /* text-align: center; */
 }
 
 .tech-header {
-	text-align: center;
-	font-weight: 700;
+  text-align: center;
+  font-weight: 700;
 }
 
 .tech {
-	font-size: 16px;
-	text-align: center;
+  font-size: 16px;
+  text-align: center;
 }
 
 #frontend-icon,
 #backend-icon,
 #fullstack-icon {
-	width: 64px;
-    height: 64px;
-	margin-bottom: 10px;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
+  width: 64px;
+  height: 64px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #fullstack-icon {
-	border-radius: 100%;
+  border-radius: 100%;
 }
 
 /* ===================== PORTFOLIO PAGE ===================== */
 
 .section {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .card {
-	width: 100%;
-	/* margin-left: 12px; */
-	margin-bottom: 15px;
-    margin-top: 15px;
+  width: 100%;
+  /* margin-left: 12px; */
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .header {
-	text-transform: uppercase;
-	text-align: center;
-	font-weight: 700;
-	margin-bottom: -10px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: -10px;
 }
 
 .portfolio-div {
-	/* padding: 5em; */
-	padding: 0 1.5rem;
-    margin: 0 auto;
-	max-width: 1280px;
-	width: 90%;
+  /* padding: 5em; */
+  padding: 0 1.5rem;
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
 }
 
 .parallax-container {
-    min-height: 300px;
-    line-height: 0;
-    height: auto;
-    color: rgba(255,255,255,.9);
+  min-height: 300px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .card:hover {
-    box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
+    0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
 }
 
 .card-title {
-	font-size: 20px!important;
-	font-weight: 700!important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
 }
 
 .app-text {
-	font-size: 16px;
+  font-size: 16px;
 }
 
 #deployed-btn,
 #github-btn {
-	display: inline;
-	background-color: #24292e;
-	text-transform: none;
-	padding: .5rem .75rem;
-	/* padding-top: .7rem; */
-	font-size: 1rem;
-	line-height: 1.5;
-	border-radius: .25rem;
-	/* box-shadow: none; */
+  display: inline;
+  background-color: #24292e;
+  text-transform: none;
+  padding: 0.5rem 0.75rem;
+  /* padding-top: .7rem; */
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  /* box-shadow: none; */
 }
 
 /* Back-to-top-button */
 #button {
-	display: inline-block;
-	background-color: #24292e;
-	width: 50px;
-	height: 50px;
-	text-align: center;
-	border-radius: 100%;
-	position: fixed;
-	bottom: 60px;
-	right: 15px;
-	transition: background-color .3s, 
-	  opacity .5s, visibility .5s;
-	opacity: 0;
-	visibility: hidden;
-	z-index: 1000;
-  }
-  #button::after {
-	font-weight: normal;
-	font-style: normal;
-	font-size: 2em;
-	line-height: 50px;
-	color: #ffffff;
-  }
-  #button:hover {
-	cursor: pointer;
-	background-color: #333333;
-  }
-  #button:active {
-	background-color: #A9A9A9;
-  }
-  #button.show {
-	opacity: 1;
-	visibility: visible;
-  }
+  display: inline-block;
+  background-color: #24292e;
+  /* width: 50px;
+  height: 50px; */
+  text-align: center;
+  border-radius: 100%;
+  position: fixed;
+  bottom: 60px;
+  right: 15px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+#button::after {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #ffffff;
+}
+
+#button:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #24292e;
+}
+
+#button:active {
+  background-color: #a9a9a9;
+}
+
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.fa-arrow-up {
+  font-size: 30px !important;
+}
+
+.fa-arrow-up:hover {
+  color: #24292e;
+}
+
+.fa-arrow-up:active {
+  color: #ffffff;
+}
 
 /* ===================== CONTACT PAGE ===================== */
 #contact-header {
-	text-align: left;
-	margin-left: -10px;
+  text-align: left;
+  margin-left: -10px;
 }
 
 #contact-container {
-    background: url("https://images.pexels.com/photos/374016/pexels-photo-374016.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat;
-    /* background-image: url("../images/laptop.jpeg"); */
-    background-attachment: fixed;
-    background-color: #ffffff;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-	background-size: cover;
-	width: 100%;
-    height: 100%;
-    position: relative;
-	font-family: 'Lato';
-	font-size: 18px;
-	color: #0E1822;
-	/* Sticky footer styles: */
-	display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+  background: url('https://images.pexels.com/photos/374016/pexels-photo-374016.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')
+    no-repeat;
+  /* background-image: url("../images/laptop.jpeg"); */
+  background-attachment: fixed;
+  background-color: #ffffff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-family: 'Lato';
+  font-size: 18px;
+  color: #0e1822;
+  /* Sticky footer styles: */
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 #logo-section {
-	width: 100%;
-	height: auto;
-	/* height: initial; */
-	opacity: .8;
-	text-align: center;
-    background-color: #ffffff;
-    opacity: 0.95;
-	/* margin-top: 75px; */
-    margin-left: 0;
-    margin-right: 0;
-	border-radius: 5px;
-	box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
- }
+  width: 100%;
+  height: auto;
+  /* height: initial; */
+  opacity: 0.8;
+  text-align: center;
+  background-color: #ffffff;
+  opacity: 0.95;
+  /* margin-top: 75px; */
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+}
 
 #github-icon,
 #linkedin-icon,
 #email-icon,
 #pdf-icon {
-    float: left;
-    width: 50%;
-	height: auto;
-    margin: 20px;
-	margin-left: 60px;
-	padding-bottom: 30px;
+  float: left;
+  width: 50%;
+  height: auto;
+  margin: 20px;
+  margin-left: 60px;
+  padding-bottom: 30px;
 }
 
 #github-icon:hover,
 #linkedin-icon:hover,
 #email-icon:hover,
 #pdf-icon:hover {
-    -webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter: drop-shadow(5px 5px 5px #222);
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
 }
 
 /* ===== MEDIA QUERIES ===== */
 
 @media screen and (min-width: 981px) and (max-width: 1200px) {
-	.section {
-		display: flex;
-		justify-content: center;
-	}
+  .section {
+    display: flex;
+    justify-content: center;
+  }
 
-    .card {
-		width: 100%;
-	}
+  .card {
+    width: 100%;
+  }
 
-	#github-btn {
-		padding-top: .2rem;
-	}
-	
-	#button {
-		margin: -5px;
-	}
+  #github-btn {
+    padding-top: 0.2rem;
+  }
 
-    #deployed-btn,
-    #github-btn {
-        display: block;
-    }
+  #button {
+    margin: -5px;
+  }
 
-    #logo-section {
-        text-align: center;
-    }
+  #deployed-btn,
+  #github-btn {
+    display: block;
+  }
 
-    #github-icon,
-    #linkedin-icon,
-    #email-icon,
-    #pdf-icon {
-        float: left;
-        width: 75%;
-        height: auto;
-        margin-left: 20px;
-    }
+  #logo-section {
+    text-align: center;
+  }
+
+  #github-icon,
+  #linkedin-icon,
+  #email-icon,
+  #pdf-icon {
+    float: left;
+    width: 75%;
+    height: auto;
+    margin-left: 20px;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 980px) {
-	.section {
-		display: flex;
-		justify-content: center;
-	}
+  .section {
+    display: flex;
+    justify-content: center;
+  }
 
-    .card {
-		width: 100%;
-	}
+  .card {
+    width: 100%;
+  }
 
-	#github-btn {
-		padding-top: .2rem;
-	}
-	
-	#button {
-		margin-right: -5px;
-		margin-bottom: 0;
-	}
+  #github-btn {
+    padding-top: 0.2rem;
+  }
 
-    #deployed-btn,
-    #github-btn {
-        display: block;
-    }
+  #button {
+    margin-right: -5px;
+    margin-bottom: 0;
+  }
 
-    #logo-section {
-        text-align: center;
-    }
+  #deployed-btn,
+  #github-btn {
+    display: block;
+  }
 
-    #github-icon,
-    #linkedin-icon,
-    #email-icon,
-    #pdf-icon {
-        float: left;
-        width: 75%;
-        height: auto;
-        margin-left: 20px;
-    }
+  #logo-section {
+    text-align: center;
+  }
+
+  #github-icon,
+  #linkedin-icon,
+  #email-icon,
+  #pdf-icon {
+    float: left;
+    width: 75%;
+    height: auto;
+    margin-left: 20px;
+  }
 }
-  
+
 @media screen and (min-width: 641px) and (max-width: 768px) {
-	.section {
-		display: flex;
-		justify-content: center;
-	}
+  .section {
+    display: flex;
+    justify-content: center;
+  }
 
-    .card {
-		width: 100%;
-	}
+  .card {
+    width: 100%;
+  }
 
-	#github-btn {
-		padding-top: .2rem;
-	}
-	
-	#button {
-		margin-right: -5px;
-		margin-bottom: 10px;
-	}
+  #github-btn {
+    padding-top: 0.2rem;
+  }
 
-    #deployed-btn,
-    #github-btn {
-        display: block;
-    }
+  #button {
+    margin-right: -5px;
+    margin-bottom: 10px;
+  }
 
-    #logo-section {
-        text-align: center;
-    }
+  #deployed-btn,
+  #github-btn {
+    display: block;
+  }
 
-    #github-icon,
-    #linkedin-icon,
-    #email-icon,
-    #pdf-icon {
-        float: left;
-        width: 75%;
-        height: auto;
-        margin-left: 65px;
-    }
+  #logo-section {
+    text-align: center;
+  }
+
+  #github-icon,
+  #linkedin-icon,
+  #email-icon,
+  #pdf-icon {
+    float: left;
+    width: 75%;
+    height: auto;
+    margin-left: 65px;
+  }
 }
 
 @media screen and (min-width: 481px) and (max-width: 640px) {
-	.section {
-		display: flex;
-		justify-content: center;
-	}
+  .section {
+    display: flex;
+    justify-content: center;
+  }
 
-    .card {
-		width: 100%;
-	}
+  .card {
+    width: 100%;
+  }
 
-	#github-btn {
-		padding-top: .2rem;
-	}
-	
-	#button {
-		margin-right: -5px;
-		margin-bottom: 10px;
-	}
+  #github-btn {
+    padding-top: 0.2rem;
+  }
 
-    #deployed-btn,
-    #github-btn {
-        display: block;
-    }
+  #button {
+    margin-right: -5px;
+    margin-bottom: 10px;
+  }
 
-    #logo-section {
-        text-align: center;
-    }
+  #deployed-btn,
+  #github-btn {
+    display: block;
+  }
 
-    #github-icon,
-    #linkedin-icon,
-    #email-icon,
-    #pdf-icon {
-        float: left;
-        width: 75%;
-        height: auto;
-        margin-left: 63px;
-    }
+  #logo-section {
+    text-align: center;
+  }
+
+  #github-icon,
+  #linkedin-icon,
+  #email-icon,
+  #pdf-icon {
+    float: left;
+    width: 75%;
+    height: auto;
+    margin-left: 63px;
+  }
 }
 
 @media screen and (min-width: 321px) and (max-width: 480px) {
-	.section {
-		display: flex;
-		justify-content: center;
-	}
-	
-    .card {
-		width: 100%;
-	}
+  .section {
+    display: flex;
+    justify-content: center;
+  }
 
-	#github-btn {
-	padding-top: .2rem;
-	}
-	
-	#button {
-		margin-right: -5px;
-		margin-bottom: 30px;
-	}
+  .card {
+    width: 100%;
+  }
 
-    #deployed-btn,
-    #github-btn {
-        display: block;
-    }
+  #github-btn {
+    padding-top: 0.2rem;
+  }
 
-    #logo-section {
-        text-align: center;
-    }
+  #button {
+    margin-right: -5px;
+    margin-bottom: 30px;
+  }
 
-    #github-icon,
-    #linkedin-icon,
-    #email-icon,
-    #pdf-icon {
-        float: left;
-        width: 75%;
-        height: auto;
-        margin-left: 40px;
-    }
+  #deployed-btn,
+  #github-btn {
+    display: block;
+  }
+
+  #logo-section {
+    text-align: center;
+  }
+
+  #github-icon,
+  #linkedin-icon,
+  #email-icon,
+  #pdf-icon {
+    float: left;
+    width: 75%;
+    height: auto;
+    margin-left: 40px;
+  }
 }
