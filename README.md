@@ -6,7 +6,7 @@ This is my official portfolio website. The website includes a Landing page, an A
 
 This responsive front-end website was created using JavaScript, Materialize, CSS, and HTML. The Landing page and Contact page images come from Pexels The font used ('Lato') comes from Google Fonts. The icons used come from Font Awesome. The animated effects come from Animate.css. The video used on the About page is an embedded YouTube video, and is responsive as well. It was created using InVideo.
 
-Open Graph Tags have been added so that when a link to or from the website is shared and posted (e.g. on Facebook), the desired image and text will be shown (see screenshot #5 below). A sitemap has been added and submitted to Google, and Google Search Console is used for this website to check the indexing status and to optimize the visibility of the website.
+Open Graph Tags have been added so that when a link to or from the website is shared and posted (e.g. on Facebook), the desired image and text will be shown (see screenshot #4 below). A sitemap has been added and submitted to Google, and Google Search Console is used for this website to check the indexing status and to optimize the visibility of the website.
 
 # Technologies Used
 
