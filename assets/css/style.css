@@ -54,7 +54,6 @@ nav {
 }
 
 #label {
-  /* font-family: 'Lustria', serif; */
   letter-spacing: 0.1em;
   font-size: 20px;
 }
@@ -67,11 +66,6 @@ nav {
 .sil:hover {
   color: #a9a9a9;
 }
-
-/* .fab:hover,
-.fas:hover {
-  color: #a9a9a9;
-} */
 
 .user-view {
   text-align: center;
@@ -113,7 +107,6 @@ h1 {
 
 #about {
   font-size: 16px;
-  /* text-align: center; */
 }
 
 .tech-header {
@@ -150,7 +143,6 @@ h1 {
 
 .card {
   width: 100%;
-  /* margin-left: 12px; */
   margin-bottom: 15px;
   margin-top: 15px;
 }
@@ -163,7 +155,6 @@ h1 {
 }
 
 .portfolio-div {
-  /* padding: 5em; */
   padding: 0 1.5rem;
   margin: 0 auto;
   max-width: 1280px;
@@ -197,19 +188,15 @@ h1 {
   background-color: #24292e;
   text-transform: none;
   padding: 0.5rem 0.75rem;
-  /* padding-top: .7rem; */
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.25rem;
-  /* box-shadow: none; */
 }
 
 /* Back-to-top-button */
 #button {
   display: inline-block;
   background-color: #24292e;
-  /* width: 50px;
-  height: 50px; */
   text-align: center;
   border-radius: 100%;
   position: fixed;
@@ -287,12 +274,10 @@ h1 {
 #logo-section {
   width: 100%;
   height: auto;
-  /* height: initial; */
   opacity: 0.8;
   text-align: center;
   background-color: #ffffff;
   opacity: 0.95;
-  /* margin-top: 75px; */
   margin-left: 0;
   margin-right: 0;
   border-radius: 5px;
