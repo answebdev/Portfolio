@@ -12,6 +12,7 @@ Open Graph Tags have been added so that when a link to or from the website is sh
 
 * JavaScript
 * Animate.css
+* Font Awesome
 * Materialize
 * CSS
 * HTML
