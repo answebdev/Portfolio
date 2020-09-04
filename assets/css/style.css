@@ -295,11 +295,8 @@ h1 {
 #email-icon,
 #pdf-icon {
   clear: both;
-  /* float: left; */
   width: 75%;
   height: auto;
-  /* margin: 20px; */
-  /* margin-left: 60px; */
   padding-bottom: 30px;
 }
 
