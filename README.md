@@ -31,4 +31,4 @@ https://adolfschmuck.com/
 
 ![Screenshot 03](screenshots/PortfolioScreenshot03.jpg "Contact Page")
 
-![Screenshot 05](screenshots/Portfolio-Screenshot04.png "Detail of posted link on Facebook page")
+![Screenshot 05](screenshots/PortfolioScreenshot04.png "Detail of posted link on Facebook page")
