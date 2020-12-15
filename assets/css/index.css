@@ -249,7 +249,7 @@ a.btn-links,
   text-align: center;
   text-decoration: none;
   transition: background-color 0.3s;
-  webkit-transition: background-color 0.3s;
+  -webkit-transition: background-color 0.3s;
 }
 
 a.btn-links:hover,
@@ -267,9 +267,15 @@ a.btn-links:hover,
   font-size: 24px;
 }
 
+.fa-file-pdf:before {
+  margin-left: 4px;
+}
+
 .fa-home,
 .fa-book,
 .fa-briefcase,
+.fa-rocket,
+.fa-file-pdf,
 .fa-envelope-square {
   font-size: 24px;
 }
@@ -277,12 +283,22 @@ a.btn-links:hover,
 .btn-links .fa,
 .btn-links i {
   backface-visibility: hidden;
-  moz-backface-visibility: hidden;
-  ms-transform: scale(1);
-  o-transform: scale(1);
+  -moz-backface-visibility: hidden;
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
   transform: scale(1);
   transition: all 0.25s;
-  webkit-backface-visibility: hidden;
-  webkit-transform: scale(1);
-  webkit-transition: all 0.25s;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: scale(1);
+  -webkit-transition: all 0.25s;
+}
+
+/* TOOLTIP STYLES */
+.tooltip-inner {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.bs-tooltip-bottom .arrow::before {
+  border-bottom-color: #ffffff;
 }

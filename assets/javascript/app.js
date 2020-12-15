@@ -1,8 +1,13 @@
-//Landing Page Animation
-$(document).ready(function() {
-  setTimeout(function() {
+// Landing Page Animation
+$(document).ready(function () {
+  setTimeout(function () {
     $('#main').removeClass('is-loading');
   }, 1200);
+});
+
+// Tooltip
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip();
 });
 
 // About Me Moving Letters Effect - Adapted from: http://tobiasahlin.com/moving-letters/
@@ -31,19 +36,19 @@ $(document).ready(function() {
 // 	});
 
 // Materialize Sidenav
-$(document).ready(function() {
+$(document).ready(function () {
   $('.sidenav').sidenav();
 });
 
 // Materialize Parallax
-$(document).ready(function() {
+$(document).ready(function () {
   $('.parallax').parallax();
 });
 
 // Back-to-top-button
 var btn = $('#button');
 
-$(window).scroll(function() {
+$(window).scroll(function () {
   if ($(window).scrollTop() > 300) {
     btn.addClass('show');
   } else {
@@ -51,7 +56,7 @@ $(window).scroll(function() {
   }
 });
 
-btn.on('click', function(e) {
+btn.on('click', function (e) {
   e.preventDefault();
   $('html, body').animate({ scrollTop: 0 }, '300');
 });
