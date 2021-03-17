@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+header {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#thumb {
+  margin-top: 1.5em;
+}
+
+.material-icons {
+  font-size: 6rem;
+  margin-bottom: 2rem;
+  animation: swing 0.75s ease;
+  animation-duration: 0.75s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: swing;
+  animation-iteration-count: 1;
+}
+
+h4 {
+  font-family: 'Lato';
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+#back-btn {
+  padding-top: 0.2rem;
+  letter-spacing: 0.1em;
+  font-family: 'Lato';
+  /* transform: translateZ(0.1px); */
+  position: relative;
+  z-index: 10;
+  font-weight: 400;
+  background-color: #24292e !important;
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#back-btn:hover {
+  background-color: #ffffff !important;
+  color: #24292e !important;
+  border: 1px solid #24292e !important;
+  transition: all 0.3s ease;
+}
+
+#back-btn:active {
+  background-color: #a9a9a9 !important;
+  color: #ffffff !important;
+  border: 1px solid #a9a9a9 !important;
+}
