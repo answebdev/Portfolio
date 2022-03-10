@@ -178,7 +178,7 @@ h1 {
   font-weight: 700 !important;
 }
 
-#demo-video {
+.card-link {
   float: right;
   font-size: 14px;
   font-weight: 400;
