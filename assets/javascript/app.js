@@ -60,3 +60,10 @@ btn.on('click', function (e) {
   e.preventDefault();
   $('html, body').animate({ scrollTop: 0 }, '300');
 });
+
+// Footer Year
+let = currentYear = new Date().getFullYear();
+let yearSpan = document.querySelectorAll('.year');
+yearSpan.forEach((yearText) => {
+  yearText.innerHTML = currentYear;
+});
